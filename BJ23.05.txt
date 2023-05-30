@@ -1,0 +1,129 @@
+package numercalSystems;
+
+import javax.swing.*;
+
+public class BinarzExaples {
+    public static void main(String[] args) {
+        int q =863;
+
+        //Classic way 10 2
+        System.out.println(863/2); //431
+        System.out.println(863%2);        //1
+
+        System.out.println(431/2); //215
+        System.out.println(431%2);        //1
+
+        System.out.println(215/2); //107
+        System.out.println(215%2);       //1
+
+        System.out.println(107/2); //53
+        System.out.println(107%2);      //1
+
+        System.out.println(53/2); //26
+        System.out.println(53%2);      //1
+
+        System.out.println(26/2); //13
+        System.out.println(26%2);       //0
+
+        System.out.println(13/2); //6
+        System.out.println(13%2);      //1
+
+        System.out.println(6/2); //3
+        System.out.println(6%2);       //0
+
+        System.out.println(3/2); //1
+        System.out.println(3%2);       //1
+
+        System.out.println(1/2); //0
+        System.out.println(1%2);      //1
+
+        //short way 10 2
+        System.out.println(Integer.toBinaryString(q));
+
+        //classic way  2 10
+        double result_2_10 = 1*Math.pow(2,9)+1*Math.pow(2,8)+1*Math.pow(2,6) + 1*Math.pow(2,4)+1*Math.pow(2,3)+1*Math.pow(2,2)+1*Math.pow(2,1)+1*Math.pow(2,0);
+
+        System.out.println(result_2_10);
+
+        //short way 2 10
+        int q2 =  0b1101011111;
+        System.out.println(q2);
+
+        // 11 0101 1111
+        // 98 7654 3210 степени для перевода из 2 в 10
+
+
+
+
+
+    }
+}
+package numercalSystems;
+
+public class HexExamples {
+    public static void main(String[] args) {
+        int q=863;
+
+        // classic way10 16
+        System.out.println(863/16); //53
+        System.out.println(863%16);       //15 -F
+
+        System.out.println(53/16); //3
+        System.out.println(53%16);       //5
+
+        System.out.println(3/16); //0
+        System.out.println(3%16);       //3
+
+        //short way 10 16
+        System.out.println(Integer.toHexString(q));
+
+        //classic way 16 10
+        double result_16_10=2*Math.pow(16,3)+1*Math.pow(16,5)+1*Math.pow(16,0);
+
+        //short way 16 10
+        int q16 = 0x35f;
+        System.out.println(q16);
+
+        //35F-число в 16ой системе
+        //210 - степени для возведения
+
+
+
+    }
+}
+package numercalSystems;
+
+public class OctaExamples {
+    public static void main(String[] args) {
+        int q = 863;
+        // 210
+
+        int result1 = 8 * 100 + 6 * 10 + 3 * 1;
+
+
+        //Classic way10 8
+        System.out.println(863 / 8); //107
+        System.out.println(863 % 8);      //7
+
+        System.out.println(107 / 8); //13
+        System.out.println(107 % 8);       //3
+
+        System.out.println(13 / 8); //1
+        System.out.println(13 % 8);      //5
+
+        System.out.println(1 / 8); //0
+        System.out.println(1 % 8);      //1
+
+        // short way 10 8
+        System.out.println(Integer.toOctalString(q));
+
+        //classic way 8 10
+        double result_8_10 = 1 * Math.pow(8, 3) + 5 * Math.pow(8, 2) + 3 * Math.pow(8, 1) + 7 * Math.pow(8, 0);
+        System.out.println(result_8_10);
+        //short way 8 10
+        int q8 = 01537;
+        System.out.println(q8);
+
+    }
+}
+
