@@ -1,5 +1,23 @@
 package numercalSystems;
 
+public class DecimalExamples {
+    public static void main(String[] args) {
+        int q = 863;
+        //
+
+        int result1 = 8*100 + 6*10 + 3*1;
+        // 8*10^2+6*10^1*3*10^0
+        double result2= 8*Math.pow(10,2)+6*Math.pow(10,1)+3*Math.pow(10,0);
+
+
+        System.out.println( result1);
+        System.out.println(result2);
+
+        System.out.println(Math.pow(2,3));
+
+
+package numercalSystems;
+
 import javax.swing.*;
 
 public class BinarzExaples {
@@ -125,5 +143,28 @@ public class OctaExamples {
         System.out.println(q8);
 
     }
+}
+import java.util.Scanner;
+
+public class hausarbeit {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner( System.in);
+
+        int t = 956;
+        System.out.println(t);
+        System.out.println(Integer.toOctalString(t));
+        System.out.println(Integer.toHexString(t));
+        System.out.println(Integer.toBinaryString(t));
+
+
+        sc.close();
+
+
+
+
+
+
+    }
+
 }
 
