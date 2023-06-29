@@ -1,0 +1,28 @@
+.wrapper{
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    background: color #34495e;
+    padding: 21px;
+    
+
+}
+
+    
+
+.imagefb{
+    height: 30px;
+    width: 30px;
+
+
+}
+.image{
+    width: 80px;
+    margin-bottom: 30px;
+    background: color #34495e;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    
+
+}  
