@@ -1,0 +1,32 @@
+head tr:nth-child(1){
+    background-color: white;
+}
+table-example{
+    width: 800px;
+    
+}
+tr:nth-child(){
+    background-color: white;
+
+}
+td:nth-child(){
+    background-color: white;
+    
+}
+td,th{
+    border: 2px solid black;
+}
+.custom-table{
+    width: 100%;
+    border-color: collapse;
+    border-spacing: 0;
+}
+
+.image{
+    width: 30px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+
+    
+}  
